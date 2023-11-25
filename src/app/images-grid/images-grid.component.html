@@ -1,0 +1,3 @@
+<div class="images-container" #masonryGrid>
+    <img *ngFor="let image of images" [src]="image" alt="Dish Image" (load)="onImageLoad()" (click)="openImageDialog(image)">
+</div>

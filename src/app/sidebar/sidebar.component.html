@@ -1,0 +1,5 @@
+<h4>Dishes:</h4>
+<div *ngFor="let dish of dishes">
+    <mat-checkbox (change)="onCheckboxChange(dish, $event.checked)">{{ dish }}</mat-checkbox>
+</div>
+  

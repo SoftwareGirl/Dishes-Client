@@ -1,0 +1,10 @@
+  .images-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .masonry-item {
+    width: 100%; /* Ensure full width within column */
+    height: auto;
+    object-fit: cover;
+  }
